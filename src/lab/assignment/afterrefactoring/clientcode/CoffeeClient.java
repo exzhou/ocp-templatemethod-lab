@@ -1,4 +1,9 @@
-package lab.assignment.beforerefactoring.clientcode;
+package lab.assignment.afterrefactoring.clientcode;
+
+import lab.assignment.afterrefactoring.ConcreteHouse;
+import lab.assignment.afterrefactoring.GlassHouse;
+import lab.assignment.afterrefactoring.CoffeeTemplate;
+import lab.assignment.afterrefactoring.WoodenHouse;
 
 import lab.assignment.beforerefactoring.CoffeeMaker;
 
