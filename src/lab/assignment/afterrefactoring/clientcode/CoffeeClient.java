@@ -1,23 +1,27 @@
 package lab.assignment.afterrefactoring.clientcode;
 
-import lab.assignment.afterrefactoring.ConcreteHouse;
-import lab.assignment.afterrefactoring.GlassHouse;
+import lab.assignment.afterrefactoring.CapuccinoCoffee;
+import lab.assignment.afterrefactoring.AmericanoCoffee;
 import lab.assignment.afterrefactoring.CoffeeTemplate;
-import lab.assignment.afterrefactoring.WoodenHouse;
+import lab.assignment.afterrefactoring.MochaCoffee;
 
-import lab.assignment.beforerefactoring.CoffeeMaker;
 
 public class CoffeeClient {
 
-
     public static void main(String[] args) {
-        CoffeeMaker starbuzz = new CoffeeMaker();
-        starbuzz.prepareMochaCoffee();
+        CoffeeTemplate coffeeType = new AmericanoCoffee();
 
-        System.out.println("********************");
+        //using template method
+        coffeeType.brewCoffee();
+        System.out.println("************");
 
-        starbuzz.prepareCapuccinoCoffee();
+        coffeeType = new MochaCoffee();
+        coffeeType.brewCoffee();
 
+        System.out.println("************");
+
+        coffeeType = new CapuccinoCoffee();
+        coffeeType.brewCoffee();
     }
 
 }
