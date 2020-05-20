@@ -41,7 +41,7 @@ public class CoffeeMaker {
 
     //ADDED additional ingredients for americano
     private void addIngredientsForAmericano(){
-        System.out.println("Adding more hot water");
+        System.out.println("Add more hot water");
         // System.out.println("Adding hot milk");
     }
     private void addIngredientsForMocha(){
@@ -49,12 +49,11 @@ public class CoffeeMaker {
         System.out.println("Adding hot milk");
     }
 
-    
-
     private void addIngredientsForCapuccino(){
         System.out.println("Add hot milk");
         System.out.println("Add cinnamon");
     }
+
 
     //ADDED final touch for americano
     private void finalTouchForAmericano(){

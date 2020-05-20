@@ -5,7 +5,7 @@ public class AmericanoCoffee extends CoffeeMaker{
     @Override
     protected void addIngredients() {
 
-        System.out.println("Adding more hot water");
+        System.out.println("Add more hot water");
     }
 
     @Override
