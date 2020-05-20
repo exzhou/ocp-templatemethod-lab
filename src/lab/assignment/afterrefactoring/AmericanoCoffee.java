@@ -1,6 +1,6 @@
 package lab.assignment.afterrefactoring;
 
-public class AmericanoCoffee extends CoffeeTemplate{
+public class AmericanoCoffee extends CoffeeMaker{
 
     @Override
     protected void addIngredients() {

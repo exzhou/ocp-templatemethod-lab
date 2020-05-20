@@ -1,6 +1,6 @@
 package lab.assignment.afterrefactoring;
 
-public class CapuccinoCoffee extends CoffeeTemplate{
+public class CapuccinoCoffee extends CoffeeMaker{
 
     @Override
     protected void addIngredients() {
